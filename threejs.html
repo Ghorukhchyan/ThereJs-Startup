@@ -1,0 +1,93 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="/Css/style.css">
+		<link rel="stylesheet" href="/Css/popup_style.css">
+		<link rel="stylesheet" href="/Css/responsive.css">
+		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="/Css/Loading.css">
+
+		<script src="/threejs/three.js"></script>
+		<!-- <script src="/threejs/OrbitControls.js"></script> -->
+		<script src="/threejs/threex.domevents.js"></script>
+		<script src="/threejs/CSS2DRenderer.js"></script>
+		
+		<!-- <script src="/threejs/PlaneGeometry.js"></script> -->
+		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+	<!-- --------------------------------scripts for obj loadind---------------------- -->
+	
+		<script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/three.min.js"></script>
+		<script src="/threejs/OrbitControl2.js"></script>
+		<script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/js/loaders/LoaderSupport.js"></script>
+		<script src='https://unpkg.com/three@0.99.0/examples/js/loaders/OBJLoader.js'></script>
+		<script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/js/loaders/OBJLoader2.js"></script>
+		<script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/js/loaders/MTLLoader.js"></script> 
+		<!-- <script src="/threejs/Texture.js"></script> -->
+		<script src="https://unpkg.com/textures@1.2.0/dist/textures.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script> -->
+		<script src="/threejs/CSS3DRenderer.js"></script>
+</head>
+<body>
+	<!--------------- loader--------------------- -->
+
+	<div id="loader">
+		<div class="spiner"></div>
+		<h1>Loading...</h1>
+	  </div> 
+
+											
+			<!-- --------------------------------popup_1---------------------- -->
+				
+			<div id="popup_1" style="display: none;">
+			
+				<div id="divobj1"></div>
+			
+				<br/>
+				<div class="popup_footer">
+					<button type="button" class="button" id="do-not-cancel-upload-confirm" style="float: left;">
+						<span>No, go back</span>
+			  		</button>
+			  		<button type="button" class="button" id="cancel-upload-confirm" style="float: right;" data-bind="click: clearOrders">
+						<span>Yes, cancel upload</span>
+			  		</button>
+				</div>
+			</div>
+		
+
+	
+			<!-- --------------------------------popup_2---------------------- -->
+
+			<div id="popup_2" style="display: none;">
+
+				<div id="divobj2"></div>
+
+				<br/>
+				<div class="popup_footer">
+		  			<button type="button" class="button" id="do-not-cancel-upload-confirm_2" style="float: left;">
+						<span>Go back</span>
+		 			 </button>
+					<button type="button" class="button" id="cancel-upload-confirm_2" style="float: right;" data-bind="click: clearOrders">
+						<span>Cancel upload</span>
+			 		</button>
+				</div>
+			</div>
+
+
+<!-- ------------------------------Big Cube------------------------------- -->
+
+
+
+		<script src="/threejs/General_Cube_Function.js"></script>
+		<script src="/threejs/function_popup.js"></script>
+		<script src="/threejs/functions_obj.js"></script>
+		<script src="/threejs/Loading.js"></script>
+
+</body>
+</html>
+
+
+
+
+

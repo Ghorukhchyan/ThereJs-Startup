@@ -1,0 +1,58 @@
+/* <!-------------------------------------------------------------- Responsive------------------------------------> */
+
+
+
+/* large devices , wide screens */
+/* @media only screen and (max-width: 1200px) {
+    
+    
+  
+  } */
+  
+  /* medium devices, desktop */
+  /* @media only screen and (max-width: 992px) {
+   
+    
+  
+  } */
+
+  
+  
+  /* small devices , tablets */
+   @media screen and (max-width: 767px) {
+
+     .button{
+       color: red;
+     }
+
+   body {
+     padding:  0% !important;
+     
+   }    
+  } 
+  
+
+  @media screen and (max-width: 700px) {
+
+    #divobj1 canvas{
+      width: 500px !important;
+      height: 450px !important;
+    }
+    
+    #popup_1{
+      width: 500px !important;
+      height: 450px !important;
+    }
+
+
+ } 
+
+
+
+
+  /* extra small devices , Phones */
+  @media screen and (max-width: 480px) {
+
+ 
+  
+  } 

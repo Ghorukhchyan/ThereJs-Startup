@@ -1,0 +1,41 @@
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.spiner {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  animation: anim 1s linear .5s infinite;
+}
+
+.spiner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-top: solid 10px #313131;
+  border-right: solid 10px transparent;
+  border-bottom: solid 10px transparent;
+  border-left: solid 10px transparent;
+  border-radius: 100%;
+}
+
+@keyframes anim {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.spinner h1 {
+  color: #313131;
+  text-align: center;
+}

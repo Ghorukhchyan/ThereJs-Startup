@@ -1,0 +1,97 @@
+ /* --------------------------------------plane object 1 --------------------------------- */
+
+#cancel-upload {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+
+/*Batch Popup*/
+#popup_1 {
+	top:0; 
+	bottom: 0; 
+	left: 0;
+	right: 0; 
+	margin: auto; 
+
+  /* top: 10%;
+  left: 25%; */
+  position: fixed;
+  display: block;
+   width: 620px; 
+   height: 450px;
+  background-color: rgb(221, 221, 221);
+  /* padding: 10px 0 10px 0; */
+  font-size: 15px;
+  color: black;
+  padding: 10px 20px 10px 20px;
+  z-index: 1000;
+}
+
+/* #popup_1 dt {
+  font-size: 11px;
+  width: 150px;
+  color: black;
+  float: left;
+  padding: 0 10px 0 0;
+  margin: 0px;
+  clear: left;
+}
+
+#popup_1 dd {
+  font-size: 11px;
+  width: 260px;
+  float: left;
+  padding: 0px;
+  margin: 0 0 10px 0;
+  color: black;
+}
+
+#popup_1 div {
+  clear: both;
+}
+
+#popup_1 #popup_footer {
+  margin-top: 50px;
+}
+
+#popup_1 #popup_footer a {
+  text-decoration: none;
+  float: right;
+} */
+
+
+
+/* #popup_1  {
+  text-decoration: none;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  filter: alpha(opacity=20);
+} */
+
+
+
+
+ /* --------------------------------------plane object 2 --------------------------------- */
+
+
+ 
+/*Batch Popup*/
+#popup_2 {
+  position: fixed;
+  top: 10%;
+  left: 25%;
+  width: 620px;
+  background-color: rgb(221, 221, 221);
+  font-size: 15px;
+  color: black;
+  padding: 10px 20px 10px 20px;
+  z-index: 1000;
+}
+
+
